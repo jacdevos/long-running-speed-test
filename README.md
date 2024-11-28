@@ -1,3 +1,3 @@
 # Runs speedtest-cli every minute for a set amount of minutes
 
-Useful to see connection stability over time.
+Useful to see connection stability over time (and why wifi sucks).
