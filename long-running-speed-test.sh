@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # Number of minutes to run the test
-MINUTES=10
+if [ $# -eq 0 ]; then
+    MINUTES=10  # Default value if no argument is provided
+else
+    MINUTES=$1
+fi
 
 for ((i=1; i<=MINUTES; i++))
 do
